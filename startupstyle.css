@@ -1,0 +1,44 @@
+body {
+	background-image: url(Omen.jpg);
+	
+	background-size: cover; /*so the image is not too big*/
+	justify-content: center;
+	align-items:center;
+}
+h1{
+	font-family: 'Bangers', cursive;
+	color: white;
+	text-align: center;
+}
+
+.join{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 30vh;
+	transition:all 1s;
+}
+.join:hover{
+	transform: scale(1.1);
+}
+
+img{
+	display:flex;
+	flex-wrap: wrap;
+	border: 2px solid pink;
+	margin: 20px;
+	width: 200px;
+	height:200px;
+
+}
+img:hover{
+	transition:all 2s;
+	transform: scale(1.2);
+	border: 20px;
+}
+.gang{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	height: 50vh;
+}
